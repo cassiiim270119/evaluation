@@ -1,0 +1,183 @@
+/* Base */
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.header-default {
+    position: relative;
+    height: 64px;
+    background-color: #00af7e;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar {
+    padding-top: 64px;
+    position: fixed;
+    width: 240px;
+    background-color: #f5f5f5;
+    box-shadow: inset -1px 0 0 0 #eeeeee;
+}
+
+.main {
+    overflow: hidden;
+    padding-left: 240px;
+}
+
+.page-header {
+    height: 64px;
+    box-shadow: inset 0 -1px 0 0 #eeeeee;
+}
+
+/* Icons */
+
+.icon-small {
+    width: 20px;
+    position: relative;
+}
+
+.icon-small-squad {
+    width: 20px;
+    max-height: 20px;
+    position: relative;
+}
+
+.icon-medium-squad {
+    width: 30px;
+    max-height: 30px;
+    position: relative;
+}
+
+.icon--light {
+    fill: aliceblue;
+}
+
+.icon--green {
+    fill: #4caf50;
+}
+
+.icon--brown {
+    fill: #7b7b7b;
+}
+
+.icon--brown-light {
+    fill: #bdbdbd;
+}
+
+/* Text */
+
+.font-large {
+    font-size: 20px;
+}
+
+.font-small {
+    font-size: 14px;
+}
+
+.font-x-small {
+    font-size: 12px;
+}
+
+.text--light {
+    color: #bdbdbd;
+}
+
+.text--ligth-green {
+    color: #4caf50;
+}
+
+.text--green {
+    color: #00af7e;
+}
+
+.text--brown {
+    color: #7b7b7b;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+/* Custom */
+
+.progress {
+    width: 175px;
+    height: 8px;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    background-color: #4caf50;
+    border-radius: 5px;
+}
+
+.div-icon {
+    display: inline;
+}
+
+.card-sidebar {
+    box-shadow: inset 0 -1px 0 0 #eeeeee;
+}
+
+.card-sidebar-active {
+    background-color: #f0f0f0;
+}
+
+.border-success {
+    border-right: 2px solid #00af7e !important;
+}
+
+.card-main {
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-textarea {
+    border: none;
+    resize: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.form-comment {
+    width: 100%;
+    border-radius: 4px;
+    border: solid 1px #eeeeee;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+textarea::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.vue-star-rating-rating-text{
+    display: none;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.bg-green {
+    background-color: #00af7e;
+}
+
+.btn {
+    border-radius: 4px;
+    border: none;
+}
